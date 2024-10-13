@@ -131,13 +131,13 @@ const Stack = () => {
 
 
   return (
-    <main className='w-full pt-10'>
-      <h3 className='text-4xl pt-5 text-white'>My Tech Toolbox</h3>
-      <p className='text-gray-300 pt-3 pb-10'>Here is all programming languages, frameworks, and tools I can use.</p>
-      <div className="grid grid-cols-4 gap-2 my-10">
+    <main className='w-full pt-10' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+      <h3 className='text-4xl pt-5 text-white' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">My Tech Toolbox</h3>
+      <p className='text-gray-300 pt-3 pb-10' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">Here is all programming languages, frameworks, and tools I can use.</p>
+      <div className="grid grid-cols-4 gap-2 my-10" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900">
         {data.map((stack: {icon: JSX.Element, title: string, description: string}, index: number) => {
             return (
-                <div className='flex flex-col items-center justify-center p-4 bg-gray-900 rounded-md border-2 border-transparent hover:border-blue-500 transition-colors duration-300 ease-linear'>
+                <div className='flex flex-col items-center justify-center p-4 bg-gray-900 rounded-md border-2 border-transparent hover:border-blue-500 transition-colors duration-300 ease-linear' key={index} data-aos="fade-up" data-aos-duration="500" data-aos-delay={500 + (index * 10)}>
                     {stack.icon}
                     <h3 className='text-center mt-4 mb-2 text-white font-semibold'>{stack.title}</h3>
                     <p className='text-sm text-center text-gray-300'>{stack.description}</p>

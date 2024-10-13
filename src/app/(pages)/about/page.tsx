@@ -1,26 +1,23 @@
 import EducationCard from '@/app/components/EducationCard'
 import React from 'react'
-import { FaComputer } from 'react-icons/fa6'
-import { WiDegrees } from 'react-icons/wi'
 
 const Education = () => {
   return (
-    <div className='w-[70%] p-5'>
-      <h3 className='text-gray-200 text-4xl py-10 hover:text-green-500 transition-colors duration-200 ease-linear'>Know About Me!</h3>
-      <p className='py-5 text-gray-500'>
+    <div className='w-[70%] p-5' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+      <h3 className='text-gray-200 text-4xl py-10 hover:text-green-500 transition-colors duration-200 ease-linear' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Know About Me!</h3>
+      <p className='py-5 text-gray-500' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure est impedit recusandae minima, ut pariatur nobis. Ipsa, fugiat aspernatur fuga ipsum corporis illo ullam voluptate quisquam repellat quasi dolorem esse nihil molestiae praesentium perspiciatis autem maiores quod voluptatibus cum consectetur nesciunt. Pariatur, id. Iste, assumenda architecto odio nemo excepturi sunt.
       </p>
 
-      <h3 className='text-gray-200 text-3xl py-10 hover:text-green-500 transition-colors duration-200 ease-linear'>Education</h3>
-      <div className='grid grid-cols-2 gap-3'>
+      <h3 className='text-gray-200 text-3xl py-10 hover:text-green-500 transition-colors duration-200 ease-linear' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">Education</h3>
+      <div className='grid grid-cols-2 gap-3' data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1100">
 
         <EducationCard title="BS Computer Science" content="Learning programming languages, Databases, Algorithms, Data Structures, AI and much more intersting!" duration="2023 - 2027 (Estimated)" />
         <EducationCard title="GIAIC Course" content="Learning Advance Web Development, Metaverse, Cloud Native & Generative AI at Governor House" duration="2023 - Continue" />
       </div>
 
-
-      <h3 className='text-gray-200 text-3xl py-10 hover:text-green-500 transition-colors duration-200 ease-linear'>Experience</h3>
-      <div className='grid grid-cols-2 gap-2'>
+      <h3 className='text-gray-200 text-3xl py-10 hover:text-green-500 transition-colors duration-200 ease-linear' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Experience</h3>
+      <div className='grid grid-cols-2 gap-2' data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">
 
         <EducationCard title="Full Stack Developer" content="Working as Full Stack Web Developer as a part time!" duration="Aug-2024 - Present  Infotech Solutions" />
 
@@ -33,17 +30,6 @@ const Education = () => {
         <EducationCard title="Python Developer Intern" content="Worked as Python Developer intern and done various python tasks!" duration="Dec-2023 - Jan-2024 Codsoft" />
 
         <EducationCard title="Frontend Developer Intern" content="Worked as Frontend Developer intern explored html, css, javascript, php and Wordpress!" duration="Nov-2023 - Dec-2023 Interns.pk" />
-
-
-
-
-
-
-
-
-
-
-
       </div>
     </div>
   )

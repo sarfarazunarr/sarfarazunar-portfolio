@@ -32,12 +32,12 @@ const Contact = () => {
       ]
 
     return (
-        <main className='w-full pt-10'>
-            <h3 className='text-4xl pt-5 text-white'>Connect With Me!</h3>
-            <p className='text-gray-300 pt-3 pb-10'>If you need any web development or Backend Development Services, feel free to contact me.</p>
-            <div className='grid grid-cols-3 gap-3 w-[90%]'>
+        <main className='w-full pt-10' data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+            <h3 className='text-4xl pt-5 text-white' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Connect With Me!</h3>
+            <p className='text-gray-300 pt-3 pb-10' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">If you need any web development or Backend Development Services, feel free to contact me.</p>
+            <div className='grid grid-cols-3 gap-3 w-[90%]' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
                 <form className='flex flex-col gap-2 col-span-2'>
-                    <div className='grid grid-cols-6 items-center gap-3'>
+                    <div className='grid grid-cols-6 items-center gap-3' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                         <label htmlFor="firstName" className='text-white text-right font-semibold mr-2'>First Name</label>
                         <input type='text' id='firstName' name='firstName' placeholder='John' className='bg-gray-700 border-2 outline-none border-gray-500 focus:border-green-500 rounded-md px-3 py-2 col-span-2 text-white' />
 
@@ -45,7 +45,7 @@ const Contact = () => {
                         <input type='text' id='lastName' name='lastName' placeholder='Doe' className='bg-gray-700 border-2 outline-none border-gray-500 focus:border-green-500 rounded-md px-3 py-2 col-span-2 text-white' />
                     </div>
 
-                    <div className='grid grid-cols-6 items-center gap-3'>
+                    <div className='grid grid-cols-6 items-center gap-3' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100">
                         <label htmlFor="email" className='text-white text-right font-semibold mr-2'>Email</label>
                         <input type='email' id='email' name='email' placeholder='abc@xyz.com' className='bg-gray-700 border-2 outline-none border-gray-500 focus:border-green-500 rounded-md px-3 py-2 col-span-2 text-white' />
 
@@ -54,15 +54,15 @@ const Contact = () => {
                     </div>
                     <label htmlFor="message" className='text-white mt-5 text-left font-semibold mr-2 ml-24'>Message</label>
                     <textarea id='message' name='message' placeholder='Enter Message...' className='bg-gray-700 border-2 outline-none border-gray-500 focus:border-green-500 rounded-md px-3 py-2 ml-24 text-white' />
-                    <button className=' bg-green-800 text-white px-3 py-2 rounded-md w-[85%] ml-24'>Send Message</button>
+                    <button className=' bg-green-800 text-white px-3 py-2 rounded-md w-[85%] ml-24' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">Send Message</button>
                 </form>
-                <div className='bg-gray-800 p-4 px-9 rounded-md'>
+                <div className='bg-gray-800 p-4 px-9 rounded-md' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">
                     <h3 className='text-center font-semibold text-2xl text-white py-2'>Connect and Follow</h3>
                     <p className='text-gray-300 pb-3'>Email: sarfarazunarr@gmail.com</p>
                     <div className='flex flex-col items-start justify-start'>
                         {socialLinks.map((sl: {name: string, link:string, icon: JSX.Element}, index: number) => {
                             return (
-                                <Link key={index} className='text-white font-semibold flex items-center justify-start gap-4 my-1 hover:text-green-400 transition-colors duration-300' href={sl.link}>{sl.icon} {sl.name}</Link>
+                                <Link key={index} className='text-white font-semibold flex items-center justify-start gap-4 my-1 hover:text-green-400 transition-colors duration-300' href={sl.link} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={1400 + (index * 100)}>{sl.icon} {sl.name}</Link>
                             )
                         })}
                     </div>
