@@ -38,7 +38,7 @@ const Sidebar = () => {
       },
     ]
   return (
-    <div className='md:w-[20%] p-5 py-10 max-h-min flex flex-col items-center justify-center gap-y-4 border-r border-gray-800'>
+    <div className='md:w-[20%] p-5 py-10 max-h-min flex flex-col items-center justify-center gap-y-4 border-r border-gray-800 bg-[#050505] z-10'>
         <div className='flex flex-col justify-center mb-4 items-center gap-2'>
             <Image src={"/profile.jpg"} alt="profile" width={200} height={200} className='rounded-md filter grayscale hover:grayscale-0 transition-all duration-200 ease-linear select-none' />
       

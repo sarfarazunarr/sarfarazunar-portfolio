@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Sidebar from "./components/Sidebar";
+import Starfield from "./components/Background";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,8 +30,14 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex w-full bg-[#050505]`}
       >
-          <Sidebar />
+        <Sidebar />
         <div className="w-[80%] p-5">
+          <Starfield
+            starCount={2000}
+            starColor={[255, 255, 255]}
+            speedFactor={0.1}
+            backgroundColor="black"
+          />
           {children}
         </div>
       </body>
