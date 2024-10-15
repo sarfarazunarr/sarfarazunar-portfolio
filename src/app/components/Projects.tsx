@@ -18,8 +18,7 @@ const Projects = ({title, limit, btnText, btnLink}: {title: string, limit?:numbe
                 <ProjectCard key={index} img={project.img} title={project.title} description={project.description} github={project.github} video={project.video}  />
             )
           })}
-          <p className='text-xs text-center text-gray-400'>You can view more projects on <Link className='text-green-400 underline' href={"https://github.com/sarfarazunarr"}>Github</Link> and on <Link className='text-green-400 underline' href={"https://www.linkedin.com/in/sarfarazunar/"}>Linkedin</Link></p>
-        </div>
+          </div>
       </div>
   )
 }
