@@ -15,7 +15,7 @@ const Main = ({
     const [visible, setVisible] = useState(true);
     useEffect(() => {
         setVisible(!isMobile)
-    }, [])
+    }, [isMobile])
 
     return (
         <section>

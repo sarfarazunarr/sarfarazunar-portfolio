@@ -33,7 +33,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-full bg-[#050505]`}
       >
-        <Main children={children} isMobile={mobilecheck} />
+        <Main isMobile={mobilecheck}>
+          {children}
+        </Main>
       </body>
     </html>
   );
