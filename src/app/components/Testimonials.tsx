@@ -1,6 +1,5 @@
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
-import ProjectCard from './Card'
 import reviews from '../data/reviews'
 import Link from 'next/link'
 import TestimonialCard from './TestimonialCard'

@@ -1,17 +1,21 @@
 // main.tsx
 "use client";
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Animation from './Animation';
 import { FaBars } from 'react-icons/fa6';
 import Sidebar from './Sidebar';
 import Starfield from './Background';
 
 const Main = ({
-    children,
+    children, isMobile
 }: Readonly<{
     children: React.ReactNode;
+    isMobile: boolean
 }>) => {
-    const [visible, setVisible] = useState(true); // Ensure initial state is false
+    const [visible, setVisible] = useState(true);
+    useEffect(() => {
+        setVisible(!isMobile)
+    }, [])
 
     return (
         <section>

@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { BsArrowRight } from "react-icons/bs";
-import { FaDev, FaEye, FaFacebook, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa6";
+import { FaDev, FaFacebook, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa6";
 const Contact = () => {
     const socialLinks = [
         {
