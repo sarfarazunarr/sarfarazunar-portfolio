@@ -18,7 +18,6 @@ const Cursor = () => {
     const updateCursorPosition = () => {
       // Define the radius values
       const bigBallRadius = 15; // Large ball radius (half of its diameter 30)
-      const smallBallOffset = 20; // Offset for small ball to move outside of the large ball
 
       // Update the position of the big ball
       bigBall.style.transform = `translate(${mouseX - bigBallRadius}px, ${mouseY - bigBallRadius}px)`;
