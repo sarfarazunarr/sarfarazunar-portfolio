@@ -9,7 +9,7 @@ const projects = [
     {
         img: "/projects/invoicy.jpg",
         title: "Invoicy - Laravel App",
-        description: "It is a invoicy app where user can register, login, and manage invoices it is a laravel based app",
+        description: "It is a invoicy app where user can register, login, and manage invoices it is a laravel based app. User can generate pdf of invoice and can send it to customer. User can also view all the invoices and can filter them by status. It is a full stack app created with laravel. It contains dashboard for admin and vendor.",
         github: "https://github.com/sarfarazunarr/invoicy",
         video: "https://www.linkedin.com/posts/sarfarazunar_laravel-crud-authentication-activity-7228364008334999552-i8YW?utm_source=share&utm_medium=member_desktop",
     },
@@ -44,7 +44,7 @@ const projects = [
     },
     {
         img: "/projects/typescript.jpg",
-        title: "10 TypeScript NodeJS (CLI) Projects",
+        title: "10 TypeScript Projects",
         description: "Here are 10 Typescript and nodejs projects assigned during the course of TypeScript at GIAIC.",
         github: "https://github.com/sarfarazunarr/typescript-projects",
         video: "/projects",
@@ -80,7 +80,7 @@ const projects = [
     {
         img: "/projects/fullformgpt.jpg",
         title: "Full Form GPT",
-        description: "It is a simple CLI based AI app. This will give you Fullform of given short form.",
+        description: "It is a simple CLI based AI app. This will give you Fullform of given short form. For example, if you want to know fullform of 'AI' then just type 'AI' and it will give you the fullform of 'AI'. This is a perfect example of use of GPT-3 API. I have used python to create this application. This is a very useful application for everyone. Because it is very hard to remember all the fullforms of all the short forms. But with the help of this application, you can easily know the fullform of any short form. This is a very useful application for students, teachers, and also for everyone who wants to know the fullform of any short form.",
         github: "https://github.com/sarfarazunarr/python-projects/tree/main/fullformgpt",
         video: "https://www.linkedin.com/posts/sarfarazunar_generativeai-chatbot-gptapi-activity-7226279011704836096-FDjM?utm_source=share&utm_medium=member_desktop",
     }

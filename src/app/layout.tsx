@@ -4,6 +4,7 @@ import "./globals.css";
 import Main from "./components/Main";
 import { headers } from "next/headers";
 import { isMobile } from "@/utils/isMobile";
+import Cursor from "./components/Cursor";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-full bg-[#050505]`}
       >
+        <Cursor />
         <Main isMobile={mobilecheck}>
           {children}
         </Main>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Projects from '@/app/components/Projects'
+import Link from 'next/link'
 
 const ProjectsPage = () => {
     return (
