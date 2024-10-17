@@ -34,7 +34,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-full bg-[#050505]`}
       >
-        <Cursor />
+        {!mobilecheck && <Cursor />}
         <Main isMobile={mobilecheck}>
           {children}
         </Main>
