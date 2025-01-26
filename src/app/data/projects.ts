@@ -15,6 +15,13 @@ const projects = [
         video: "https://hekto-ecommerce-web.vercel.app/",
     },
     {
+        img: "/projects/propertytax.jpg",
+        title: "Property Tax Calculator",
+        description: "Here is a amazing tool that will help you to calculate taxes on your property registration based on your provided location area.",
+        github: "https://github.com/sarfarazunarr/property-registration-tax-calculator",
+        video: "https://property-tax-calculator.vercel.app/",
+    },
+    {
         img: "/projects/techstars.jpg",
         title: "Techstars",
         description: "Here is a complete blog frontend design that fetches data from sanity and this blog contain sanity cms. It has amazing design that is also replicated from figma.",
@@ -27,6 +34,13 @@ const projects = [
         description: "It is a full ecommerce website where users can browse products, add to cart, checkout and can place order. Currently it does not have admin panel.",
         github: "https://github.com/sarfarazunarr/khareedlo",
         video: "https://khareedlo.vercel.app/",
+    },
+    {
+        img: "/projects/infotech.jpg",
+        title: "Infotech",
+        description: "Here is a complete company website that also contain team panel that has all important pages that a company website should have. It contain blogs, user management, project management features.",
+        github: "https://github.com/sarfarazunarr",
+        video: "https://infotechsolutions.cloud/",
     },
     {
         img: "/projects/resumebuilder.jpg",
