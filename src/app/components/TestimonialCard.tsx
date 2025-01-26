@@ -2,13 +2,11 @@
 import Image from 'next/image'
 import React from 'react'
 import { FaStar } from 'react-icons/fa6';
-import { Tilt } from 'react-next-tilt';
 
 
 const TestimonialCard = ({ stars, content, name, img }: { stars: number, content: string, name: string, img: string }) => {
   const starsArray = Array(stars);
   return (
-    <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} scale={1.05}>
       <div className="border border-gray-800 bg-gray-950 rounded-md" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
         <div className="p-4">
           <div className="flex justify-center items-center gap-1">{starsArray.map((_, index) => {
@@ -23,7 +21,6 @@ const TestimonialCard = ({ stars, content, name, img }: { stars: number, content
           </div>
         </div>
       </div>
-    </Tilt>
   )
 }
 

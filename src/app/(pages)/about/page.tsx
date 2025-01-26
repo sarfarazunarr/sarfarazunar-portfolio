@@ -14,12 +14,18 @@ const Education = () => {
 
         <EducationCard title="BS Computer Science" content="Learning programming languages, Databases, Algorithms, Data Structures, AI and much more intersting!" duration="2023 - 2027 (Estimated)" />
         <EducationCard title="GIAIC Course" content="Learning Advance Web Development, Metaverse, Cloud Native & Generative AI at Governor House" duration="2023 - Continue" />
+
+        <EducationCard title="AI Developer Course" content="Currently doing AI Developer Course at IBM Coursera" duration="Jan-2024 - Continue" />
+
+        <EducationCard title="AI Engineering Course" content="Currently doing AI Engineering Course at IBM Coursera" duration="Jan-2024 - Continue" />
       </div>
 
       <h3 className='text-gray-200 text-3xl py-10 hover:text-green-500 transition-colors duration-200 ease-linear' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Experience</h3>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-2' data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">
 
-        <EducationCard title="Full Stack Developer" content="Working as Full Stack Web Developer as a part time!" duration="Aug-2024 - Present  Infotech Solutions" />
+        <EducationCard title="Full Stack Developer & Founder" content="Currently Building my startup and working on projects as full stack developer!" duration="Dec-2024 - Present Techryzer" />
+
+        <EducationCard title="Full Stack Developer" content="Working as Full Stack Web Developer as a part time!" duration="Aug-2024 - Nov-2024 - Infotech" />
 
         <EducationCard title="PHP Web Developer Intern" content="Worked as PHP Developer intern and created amazing real world projects!" duration="Jun-2024 - Aug-2024 Internee.pk" />
 

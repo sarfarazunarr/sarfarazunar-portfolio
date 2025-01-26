@@ -1,10 +1,46 @@
 const projects = [
+    
     {
-        img: "/projects/livelap.jpg",
-        title: "Livelap - Ecommerce",
-        description: "It is a full stack ecommerce website with stripe payment, cart, checkout, user authentication created with PHP. It contains dashboard for vendor and admin.",
-        github: "https://github.com/sarfarazunarr/livelap-ecommerce-website",
-        video: "https://www.linkedin.com/posts/sarfarazunar_webdevelopment-ecommerce-php-activity-7228013324569833472-9y5L?utm_source=share&utm_medium=member_desktop",
+        img: "/projects/techryzer.jpg",
+        title: "Techryzer Company Website",
+        description: "Here is my techryzer website that is my startup that i am going to start! This is platform where you can find amazing projects that will be live soon.",
+        github: "https://github.com/sarfarazunarr/",
+        video: "https://www.techryzer.com",
+    },
+    {
+        img: "/projects/hekto.jpg",
+        title: "Hekto Ecommerce",
+        description: "It is a full ecommerce website where users can browse products, add to cart, checkout and can place order. Currently it does not have admin panel that will be added soon.",
+        github: "https://github.com/sarfarazunarr/hekto-ecommerce",
+        video: "https://hekto-ecommerce-web.vercel.app/",
+    },
+    {
+        img: "/projects/techstars.jpg",
+        title: "Techstars",
+        description: "Here is a complete blog frontend design that fetches data from sanity and this blog contain sanity cms. It has amazing design that is also replicated from figma.",
+        github: "https://github.com/sarfarazunarr/techstars",
+        video: "https://techstars-wine.vercel.app/",
+    },
+    {
+        img: "/projects/khareedlo.jpg",
+        title: "Khareedlo",
+        description: "It is a full ecommerce website where users can browse products, add to cart, checkout and can place order. Currently it does not have admin panel.",
+        github: "https://github.com/sarfarazunarr/khareedlo",
+        video: "https://khareedlo.vercel.app/",
+    },
+    {
+        img: "/projects/resumebuilder.jpg",
+        title: "Resume Builder",
+        description: "Here is a resume builder where you can easily create resumes and downlod in PDF Format just by filling out a form. This is part of hackathon 1",
+        github: "https://github.com/sarfarazunarr/static_resume_builder",
+        video: "https://static-resume-builder-seven-xi.vercel.app/",
+    },
+    {
+        img: "/projects/uitask.jpg",
+        title: "Landing Page Design",
+        description: "Here is a sample page created in NextJS by replicating Figma Design. This task was assigned during the learning phase of NextJS",
+        github: "https://github.com/sarfarazunarr/figma-to-nextjs",
+        video: "https://figma-to-nextjs-peach.vercel.app/",
     },
     {
         img: "/projects/invoicy.jpg",

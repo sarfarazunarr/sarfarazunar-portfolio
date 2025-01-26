@@ -62,7 +62,7 @@ const Sidebar = ({ visible = true, setVisible }: { visible: boolean, setVisible:
                     alt="profile" 
                     width={200} 
                     height={200} 
-                    className='rounded-md filter grayscale hover:grayscale-0 transition-all duration-200 ease-linear select-none' 
+                    className='rounded-md select-none' 
                 />
             </div>
             {/* Menu */}
