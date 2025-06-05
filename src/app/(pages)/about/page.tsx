@@ -6,7 +6,11 @@ const Education = () => {
     <div className='w-full md:w-[70%] p-5' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
       <h3 className='text-gray-200 text-4xl py-10 hover:text-green-500 transition-colors duration-200 ease-linear' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Know About Me!</h3>
       <p className='py-5 text-gray-500' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-        Hi, I&apos;m a full stack developer with a passion for creating websites. I have a strong background in backend development, with a focus on building scalable and secure web applications. I have extensive knowledge of HTML, CSS, JavaScript, Python, PHP, C++, Java and various backend frameworks such as Node.js, Express, NextJs and FastAPI. I also have experience with databases, such as MongoDB and MySQL. When I&apos;m not coding, I enjoy learning new technologies, reading books, AI and tech articles. I&apos;m always looking for new challenges and opportunities to grow as a developer.
+        Hi, I&apos;m a Full Stack Web & AI Developer with a passion for building smart, scalable, and modern digital systems. I specialize in creating end-to-end web applications using technologies like React, Next.js, Node.js, Express, FastAPI, and Python—combining clean frontend design with powerful backend logic.<br />
+        I have hands-on experience with both SQL and NoSQL databases (MySQL, PostgreSQL, MongoDB), and I&apos;m skilled in developing robust APIs, integrating third-party services, and deploying secure, high-performance web platforms.<br />
+        Recently, I&apos;ve been focused on integrating AI into web systems using OpenAI's latest Agents SDK (Response API)—designing custom AI agents that automate workflows, process data, and enhance user interactions in real time.<br />
+        Outside of coding, you&apos;ll find me exploring new AI tools, reading about emerging tech trends, and always looking for ways to solve complex problems through intelligent design.<br />
+        Let&apos;s build something innovative, useful, and future-ready.
       </p>
 
       <h3 className='text-gray-200 text-3xl py-10 hover:text-green-500 transition-colors duration-200 ease-linear' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">Education</h3>
@@ -15,9 +19,7 @@ const Education = () => {
         <EducationCard title="BS Computer Science" content="Learning programming languages, Databases, Algorithms, Data Structures, AI and much more intersting!" duration="2023 - 2027 (Estimated)" />
         <EducationCard title="GIAIC Course" content="Learning Advance Web Development, Metaverse, Cloud Native & Generative AI at Governor House" duration="2023 - Continue" />
 
-        <EducationCard title="AI Developer Course" content="Currently doing AI Developer Course at IBM Coursera" duration="Jan-2024 - Continue" />
-
-        <EducationCard title="AI Engineering Course" content="Currently doing AI Engineering Course at IBM Coursera" duration="Jan-2024 - Continue" />
+        <EducationCard title="AI Developer Course" content="Currently doing AI Developer Course at IBM Coursera" duration="Jan-2025 - Jun-2025" />
       </div>
 
       <h3 className='text-gray-200 text-3xl py-10 hover:text-green-500 transition-colors duration-200 ease-linear' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Experience</h3>

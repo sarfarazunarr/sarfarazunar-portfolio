@@ -1,5 +1,25 @@
 const projects = [
-    
+    {
+        img: "/projects/Personal-ai-agent.jpg",
+        title: "Personal AI Agent",
+        description: "Here is My Personal AI Agent that uses OpenAI sdk and tools to communicate with clients regarding their projects and also tell them about me and my work.",
+        github: "https://github.com/sarfarazunarr/sarfaraz-ai",
+        video: "https://www.linkedin.com/posts/sarfarazunar_ai-agenticabrai-assistant-activity-7335254264757284864-YNEz",
+    },
+    {
+        img: "/projects/propertyagent.jpg",
+        title: "Faraz Property Agent",
+        description: "Here is Faraz Property AI Agent that helps users to calculate thier property tax based on their provided location and area. It is a very useful tool for property owners.",
+        github: "https://github.com/sarfarazunarr/property-ai-agent",
+        video: "https://www.linkedin.com/posts/sarfarazunar_ai-agents-gemini-activity-7333461948191100929-cxLW",
+    },
+    {
+        img: "/projects/windowagent.jpg",
+        title: "Windows AI Agent",
+        description: "Here is Windows AI Agent that uses OpenAI sdk and tools to do basic tasks on windows system. It is a very useful tool for windows users.",
+        github: "https://github.com/sarfarazunarr/window-agent",
+        video: "https://www.linkedin.com/posts/sarfarazunar_giaic-ai-aiagents-activity-7334103421706207233-N5sV",
+    },
     {
         img: "/projects/techryzer.jpg",
         title: "Techryzer Company Website",

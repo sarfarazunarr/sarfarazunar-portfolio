@@ -62,7 +62,7 @@ const Sidebar = ({ visible = true, setVisible }: { visible: boolean, setVisible:
                     alt="profile" 
                     width={200} 
                     height={200} 
-                    className='rounded-md select-none' 
+                    className='rounded-md select-none shadow-none hover:shadow-lg hover:shadow-green-400 hover:cursor-pointer transition-all duration-300' 
                 />
             </div>
             {/* Menu */}
@@ -71,10 +71,10 @@ const Sidebar = ({ visible = true, setVisible }: { visible: boolean, setVisible:
                     <Link 
                         key={data.link}
                         href={data.link}
-                        className={`flex items-center gap-3 hover:text-primary-400 ${pathName === data.link ? "bg-gradient-to-r from-green-800 to-transparent border-green-600" : "border-transparent bg-[#1A1A1A]"} group rounded-md p-3 transition-all duration-200 ease-linear justify-start hover:border-green-500 border-2`}
+                        className={`flex items-center gap-3 hover:text-primary-400 ${pathName === data.link ? "bg-gradient-to-r from-green-600 to-transparent border-green-300" : "border-transparent bg-[#1A1A1A]"} group rounded-md p-3 transition-all duration-200 ease-linear justify-start hover:border-green-500 border`}
                     >
                         {data.icon}
-                        <span className='text-white font-semibold group-hover:text-green-400 transition-colors duration-300 cursor-pointer select-none'>{data.name}</span>
+                        <span className='text-white font-normal group-hover:text-green-400 transition-colors duration-300 cursor-pointer select-none'>{data.name}</span>
                     </Link>
                 ))}
             </div>

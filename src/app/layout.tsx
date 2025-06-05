@@ -17,8 +17,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Sarfaraz Unar - Web Developer",
-  description: "This is portfolio site of Sarfaraz Unar",
+  title: "Sarfaraz Unar - Web & Agentic AI Developer",
+  description: "I am Sarfaraz Unar, I am full stack web developer and Agentic AI Develoepr. I have experience in building web applications using Next.js, React, and Node.js. I also have experience in building AI applications using OpenAI's latest Agents SDK (Response API).",
 };
 
 export default function RootLayout({

@@ -1,13 +1,18 @@
 "use client";
 import Link from 'next/link'
 import React from 'react'
-import { FaDev, FaFacebook, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa6";
+import { FaDev, FaFacebook, FaGithub, FaLinkedin, FaUpwork, FaYoutube } from "react-icons/fa6";
 const Contact = () => {
   const socialLinks = [
     {
       name: "Linkedin",
       link: "https://linkedin.com/in/sarfarazunar",
       icon: <FaLinkedin size={20} />,
+    },
+    {
+      name: "Upwork",
+      link: "https://www.upwork.com/freelancers/~01bd988de52db313ac",
+      icon: <FaUpwork size={20} />,
     },
     {
       name: "Github",
@@ -57,7 +62,7 @@ const Contact = () => {
   return (
     <main className='w-full pt-10' data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
       <h3 className='text-4xl pt-5 text-white' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Connect With Me!</h3>
-      <p className='text-gray-300 pt-3 pb-10' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">If you need any web development or Backend Development Services, feel free to contact me.</p>
+      <p className='text-gray-300 pt-3 pb-10' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">Have a project in mind? Let’s connect and turn your idea into a powerful web experience.</p>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-3 w-[90%]' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
         <form onSubmit={onSubmit} className='flex flex-col gap-2 col-span-2'>
           <div className='grid grid-cols-2 md:grid-cols-6 items-center gap-3' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
