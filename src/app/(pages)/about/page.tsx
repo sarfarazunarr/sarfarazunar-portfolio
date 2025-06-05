@@ -8,7 +8,7 @@ const Education = () => {
       <p className='py-5 text-gray-500' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
         Hi, I&apos;m a Full Stack Web & AI Developer with a passion for building smart, scalable, and modern digital systems. I specialize in creating end-to-end web applications using technologies like React, Next.js, Node.js, Express, FastAPI, and Python—combining clean frontend design with powerful backend logic.<br />
         I have hands-on experience with both SQL and NoSQL databases (MySQL, PostgreSQL, MongoDB), and I&apos;m skilled in developing robust APIs, integrating third-party services, and deploying secure, high-performance web platforms.<br />
-        Recently, I&apos;ve been focused on integrating AI into web systems using OpenAI's latest Agents SDK (Response API)—designing custom AI agents that automate workflows, process data, and enhance user interactions in real time.<br />
+        Recently, I&apos;ve been focused on integrating AI into web systems using OpenAI&apos;s latest Agents SDK (Response API)—designing custom AI agents that automate workflows, process data, and enhance user interactions in real time.<br />
         Outside of coding, you&apos;ll find me exploring new AI tools, reading about emerging tech trends, and always looking for ways to solve complex problems through intelligent design.<br />
         Let&apos;s build something innovative, useful, and future-ready.
       </p>
