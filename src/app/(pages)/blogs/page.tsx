@@ -1,5 +1,4 @@
 import React from "react";
-import { BookOpen } from "lucide-react";
 import blogs from "../../data/blogs"
 
 export default function BlogsPage() {

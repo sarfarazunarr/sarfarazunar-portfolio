@@ -1,4 +1,4 @@
-import { Bot, TerminalSquare, BrainCircuit, Code, Database, Globe } from "lucide-react";
+
 
 export const featuredTools = [
   {

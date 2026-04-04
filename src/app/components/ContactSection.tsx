@@ -1,6 +1,5 @@
 "use client";
-import { motion } from "framer-motion";
-import { Copy, CheckCircle2, Terminal, Send, Github, Linkedin, Twitter } from "lucide-react";
+import { Copy, CheckCircle2, Terminal, Send, Github, Linkedin } from "lucide-react";
 import { useState } from "react";
 
 export default function ContactSection() {

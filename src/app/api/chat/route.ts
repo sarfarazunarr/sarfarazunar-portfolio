@@ -59,7 +59,7 @@ export async function POST(req: Request) {
   try {
     const { messages } = await req.json();
 
-    const formattedMessages = messages.map((msg: any) => {
+    const formattedMessages = messages.map((msg: { role: string, content: string }) => {
       if (msg.role === "assistant" && typeof msg.content === "string") {
         return {
           ...msg,

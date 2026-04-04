@@ -8,7 +8,7 @@ import SplashScreen from './SplashScreen';
 import Chatbot from './Chatbot';
 
 const Main = ({
-    children, isMobile
+    children
 }: Readonly<{
     children: React.ReactNode;
     isMobile: boolean
