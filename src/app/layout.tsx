@@ -5,20 +5,23 @@ import Main from "./components/Main";
 import { headers } from "next/headers";
 import { isMobile } from "@/utils/isMobile";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+import { Space_Grotesk, Orbitron } from "next/font/google";
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space-grotesk",
+  weight: ["300", "400", "500", "600", "700"],
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+
+const orbitron = Orbitron({
+  subsets: ["latin"],
+  variable: "--font-orbitron",
+  weight: ["400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
   title: "Sarfaraz Unar - Web & Agentic AI Developer",
-  description: "I am Sarfaraz Unar, I am full stack web developer and Agentic AI Develoepr. I have experience in building web applications using Next.js, React, and Node.js. I also have experience in building AI applications using OpenAI's latest Agents SDK (Response API).",
+  description: "I am Sarfaraz Unar, full stack web developer and Agentic AI Developer. Building intelligent, scalable applications using Next.js and LLM AI Agents.",
 };
 
 export default function RootLayout({
@@ -31,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased w-full bg-[#050505]`}
+        className={`${spaceGrotesk.variable} ${orbitron.variable} font-sans antialiased w-full text-foreground`}
       >
         <Main isMobile={mobilecheck}>
           {children}

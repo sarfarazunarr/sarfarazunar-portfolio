@@ -1,10 +1,11 @@
 // main.tsx
 "use client";
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Animation from './Animation';
-import { FaBars } from 'react-icons/fa6';
-import Sidebar from './Sidebar';
+import Navbar from './Navbar';
 import Starfield from './Background';
+import SplashScreen from './SplashScreen';
+import Chatbot from './Chatbot';
 
 const Main = ({
     children, isMobile
@@ -12,35 +13,22 @@ const Main = ({
     children: React.ReactNode;
     isMobile: boolean
 }>) => {
-    const [visible, setVisible] = useState(true);
-    useEffect(() => {
-        setVisible(!isMobile)
-    }, [isMobile])
-
     return (
-        <section>
+        <section className="min-h-screen flex flex-col">
+            <Chatbot />
+            <SplashScreen />
             <Animation />
-            <nav className="w-full md:hidden flex items-center p-5 justify-start">
-                <button onClick={() => setVisible(true)} aria-label="Open Sidebar">
-                    <FaBars color='white' size={20} className='z-50' /> 
-                </button>
-            </nav>
-            {/* Optional Backdrop */}
-            {visible && (
-                <div 
-                    className="fixed inset-0 bg-black opacity-50 z-40 md:hidden" 
-                    onClick={() => setVisible(false)}
-                ></div>
-            )}
-            <main className="flex">
-                <Sidebar visible={visible} setVisible={setVisible} />
-                <div className="md:ml-[20%] w-full md:w-[80%] p-5">
+            <Navbar />
+            <main className="w-full flex-1 pt-20 relative">
+                <div className="absolute inset-0 z-0">
                     <Starfield
                         starCount={2000}
                         starColor={[255, 255, 255]}
                         speedFactor={0.1}
                         backgroundColor="black"
                     />
+                </div>
+                <div className="relative z-10 w-full">
                     {children}
                 </div>
             </main>

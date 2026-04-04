@@ -2,14 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #030014;
+    color: #ffffff;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+      radial-gradient(at 50% 0%, hsla(225,39%,30%,0.2) 0, transparent 50%), 
+      radial-gradient(at 100% 0%, hsla(339,49%,30%,0.2) 0, transparent 50%);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+  }
+}
 
 ::-webkit-scrollbar {
-    background-color: black;
+    width: 8px;
+    background-color: #030014;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #7000ff, #00f0ff);
+    border-radius: 4px;
 }
 
 ::selection {
-    background-color: #189e4a;
-    color: white;
+    background-color: rgba(0, 240, 255, 0.3);
+    color: #00f0ff;
+}
+
+.bg-grid {
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  mask-image: linear-gradient(to bottom, transparent, black, transparent);
+  -webkit-mask-image: linear-gradient(to bottom, transparent, black, transparent);
 }
 
 .loader {
